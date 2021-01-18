@@ -1,0 +1,218 @@
+/* 全体共通 始まり */
+ol, ul {
+    list-style: none;
+}
+/* 全体共通 終わり */
+
+html {
+    display: block;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    background-color: #f2dffe;
+    color: #4D4848;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    position: relative;
+    z-index: 50;
+}
+
+.headLine {
+    height: 60px;
+    padding: 20px 5.33333% 0;
+    margin-bottom: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.logo {
+	width: 200px;
+	margin-right: 10px;
+	margin: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.secondHead {
+    margin: 4px 0;
+    color: #837F7B;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: .1em;
+}
+
+.topText {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 15px 0 4px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .05em;
+    position: relative;
+    top: -20px;
+}
+.topText img {
+    max-width: 89.33333%;
+    margin-top: 10px;
+}
+
+
+/* section 共通 始まり */
+.progress {
+    height: 55px;
+    padding: 14px 5.33333% 0;
+    background-color: #DE5E00;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+}
+
+.progress .bar {
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: relative;
+}
+
+.progress .bar div span:nth-child(1) {
+    display: block;
+    width: 4.1791%;
+    height: 4px;
+    background-color: #3B4043;
+    border-radius: 2px;
+}
+
+.progress .bar div span:nth-child(2) {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #3B4043;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 0 1px #fff, 0 1px 2px 0 rgba(0, 0, 0, .4);
+    position: absolute;
+    top: -4px;
+    left: calc((14 / 335 * 100%) - 6px);
+}
+
+.progress .msg {
+    letter-spacing: .05em;
+    position: absolute;
+    left: 50%;
+    bottom: 11px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.progress .prev {
+    position: absolute;
+    left: 5.33333%;
+    bottom: 11px
+}
+
+.progress .next {
+    position: absolute;
+    right: 5.33333%;
+    bottom: 11px
+}
+
+/* 入力内容のタイトル */
+main .section_group {
+    width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+main .section_group .section_title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .section_group .section_content {
+    padding: 0;
+}
+
+
+
+
+/* インプットタグのデザイン */
+
+.inputRadio span {
+    display: block;
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    position: relative;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.inputRadio>span {
+    box-sizing: border-box;
+    background: #8D8D8D;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(141, 141, 141, .4);
+    box-shadow: 0 2px 3px 0 rgba(141, 141, 141, .4);
+    padding: 0 19px;
+    background-color: #FFF;
+    border: 1px solid #EFEFEF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 1;
+    top: -3px;
+}
+
+
+.inputRadio input:checked+span {
+    background-color: #DE5E00;
+    border-color: #DE5E00;
+    color: #FFF;
+    top: -1px;
+}
+
+.inputRadio input {
+    display: none;
+}
+
+/* section 共通 終わり */
+/* section1 始まり */
+
+
+
+/* section1 終わり */
